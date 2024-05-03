@@ -1,0 +1,9 @@
+{
+	"entry": ["src/**/*.page.tsx", "src/index.ts"],
+	"extensions": [".d.ts", ".ts", ".tsx", ".js"],
+	"ignorePatterns": ["**/node_modules/**", "**/dist/**"],
+	"ignoreUnimported": ["src/global.d.ts", "src/**/*.stories.tsx"],
+	"ignoreUnresolved": ["../../index.css"],
+	"ignoreUnused": ["@rollup/plugin-json", "react-tracker-teko", "vite"],
+	"rootDir": "."
+}
